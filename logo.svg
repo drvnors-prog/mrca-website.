@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 120" width="1040" height="240">
+  <g transform="translate(10,10) scale(1.5625)" color="#12233A">
+    <circle cx="32" cy="32" r="29" fill="none" stroke="#12233A" stroke-width="1.4"/>
+    <circle cx="32" cy="32" r="24" fill="none" stroke="#12233A" stroke-width=".6" opacity=".45"/>
+    <path d="M9 32 L11.5 28 L13.5 35.5 L15.5 25 L17.5 38 L19.5 29 L21.5 34.5 L23.5 27 L25.5 35 L27.5 30.5 L29.5 32.8 L31 32 C33.5 21.5 38.5 21.5 41 32 C43.5 42.5 48.5 42.5 51 32 L55 32" fill="none" stroke="#12233A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="55" cy="32" r="2.6" fill="#A8823D"/>
+  </g>
+  <text x="128" y="62" font-family="Cormorant, 'Cormorant Garamond', Georgia, serif" font-size="38" font-weight="600" fill="#12233A">Music Research Centre</text>
+  <text x="130" y="92" font-family="'IBM Plex Mono', Menlo, monospace" font-size="15" letter-spacing="9" fill="#A8823D">AUSTRALIA</text>
+</svg>
