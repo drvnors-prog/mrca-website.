@@ -567,7 +567,7 @@ footer .mono{font-family:var(--f-mono);font-size:.72rem;letter-spacing:.08em}
     const n=f['name'].value.trim(),m=f['email'].value.trim();
     ok.hidden=false;
     if(!n||!/^\S+@\S+\.\S+$/.test(m)){ok.textContent='Please add your name and a valid email address.';return}
-    if(f.action.includes('YOUR_FORM_ID')){ok.textContent='This form is not connected yet. Add your Formspree form ID in index.html (see README).';return}
+    if(f.action.includes('<form id="eoi" action="https://formspree.io/f/xljgqvld" method="POST" novalidate>
     const btn=f.querySelector('button');btn.disabled=true;ok.textContent='Sending…';
     try{
       const r=await fetch(f.action,{method:'POST',body:new FormData(f),headers:{Accept:'application/json'}});
